@@ -11,4 +11,4 @@ For example:
 ```viml
 hi ExtraWS ctermbg=1 guibg=#800000
 ```
-Will highlight with a bright red background any extra whitespace.
+Will highlight with a bright red background any extra whitespace (which is the default behavior).
