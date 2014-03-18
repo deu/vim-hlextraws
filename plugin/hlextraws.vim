@@ -1,3 +1,4 @@
+" Define a pattern for detecting trailing whitespaces:
 match ExtraWS /\s\+$/
 autocmd BufWinEnter * match ExtraWS /\s\+$/
 autocmd InsertEnter * match ExtraWS /\s\+\%#\@<!$/
